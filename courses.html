@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="hy">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Դասընթացներ</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="index.html">Գլխավոր</a>
+      <a href="courses.html">Դասընթացներ</a>
+      <a href="about.html">Մեր մասին</a>
+      <a href="contact.html">Կապ</a>
+    </nav>
+  </header>
+
+  <main class="courses">
+    <h1>Մատչելի դասընթացներ</h1>
+    
+    <!-- Դասընթաց 1 -->
+    <div class="course-card">
+      <h2>Ծրագրավորում սկսնակների համար</h2>
+      <p>Իմացիր HTML, CSS և JavaScript-ի հիմունքները զրոյից։</p>
+      <a href="#" class="view-course" data-title="Ծրագրավորում սկսնակների համար" data-description="Այս դասընթացում դուք կսովորեք HTML/CSS/JS-ի հիմունքները՝ կայքերի կառուցման համար։ Դասընթացը հարմար է բոլոր այն մարդկանց համար, ովքեր ցանկանում են սկսել կայք պատրաստելու գործընթացը։">Տեսնել դասընթացը</a>
+    </div>
+    
+    <!-- Դասընթաց 2 -->
+    <div class="course-card">
+      <h2>Տվյալների բազայի հիմունքներ</h2>
+      <p>Սովորիր ինչպես նախագծել և կառավարել SQL տվյալների բազաներ։</p>
+      <a href="#" class="view-course" data-title="Տվյալների բազայի հիմունքներ" data-description="Այս դասընթացում դուք կսովորեք SQL լեզվով աշխատելու հիմունքները՝ ստեղծելու և կառավարելու տվյալների բազաներ, իրականացնելու հարցումներ և մանիպուլյացիաներ։">Տեսնել դասընթացը</a>
+    </div>
+  </main>
+
+  <!-- Դասընթացի popup պատուհան -->
+  <div id="courseModal" class="modal">
+    <div class="modal-content">
+      <span class="close-course">&times;</span>
+      <h2 id="courseTitle">Դասընթաց</h2>
+      <p id="courseDescription">Այստեղ կլինի դասընթացի մանրամասն նկարագրությունը։</p>
+    </div>
+  </div>
+
+  <script src="script.js"></script> <!-- Կցում ենք JavaScript ֆայլը -->
+</body>
+</html>
+
+
+
+
